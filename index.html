@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KIMIKI Toys | Juguetes de madera</title>
+
+    <meta name="description" content="KIMIKI Toys — juguetes de madera, juegos didácticos, motricidad, ingenio y aprendizaje para niños.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333333;
+            margin-left: 25px;
+            font-weight: 600;
+        }
+
+        .hero {
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 8%;
+            background: #f7f4ef;
+        }
+
+        .hero-content {
+            max-width: 850px;
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 7vw, 76px);
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 21px;
+            max-width: 700px;
+            margin: 0 auto 35px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #333333;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .category {
+            padding: 35px 25px;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            text-align: center;
+            background: white;
+        }
+
+        .category h3 {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .about {
+            background: #f7f7f7;
+            text-align: center;
+        }
+
+        .about-content {
+            max-width: 850px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #222222;
+            color: white;
+            text-align: center;
+            padding: 35px 8%;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            .hero {
+                min-height: 60vh;
+                padding: 60px 6%;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            section {
+                padding: 55px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">KIMIKI TOYS</div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#categorias">Juegos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+
+                <h1>KIMIKI Toys</h1>
+
+                <p>
+                    Juguetes de madera diseñados para aprender,
+                    imaginar, crear y crecer jugando.
+                </p>
+
+                <a class="button" href="#categorias">
+                    Descubrir nuestros juegos
+                </a>
+
+            </div>
+        </section>
+
+
+        <section id="categorias">
+
+            <div class="section-title">
+
+                <h2>Jugamos para aprender</h2>
+
+                <p>
+                    Propuestas pensadas para distintas edades,
+                    habilidades y formas de aprender.
+                </p>
+
+            </div>
+
+
+            <div class="categories">
+
+                <div class="category">
+                    <h3>Motricidad</h3>
+                    <p>
+                        Juegos para desarrollar movimiento,
+                        equilibrio y coordinación.
+                    </p>
+                </div>
+
+
+                <div class="category">
+                    <h3>Didácticos</h3>
+                    <p>
+                        Productos que convierten el aprendizaje
+                        en una experiencia divertida.
+                    </p>
+                </div>
+
+
+                <div class="category">
+                    <h3>Ingenio</h3>
+                    <p>
+                        Desafíos para pensar, descubrir
+                        y resolver problemas.
+                    </p>
+                </div>
+
+
+                <div class="category">
+                    <h3>Juegos grupales</h3>
+                    <p>
+                        Propuestas para compartir,
+                        jugar y aprender juntos.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="about" id="nosotros">
+
+            <div class="about-content">
+
+                <h2>Diseñamos para crecer jugando</h2>
+
+                <br>
+
+                <p>
+                    KIMIKI Toys desarrolla juguetes y juegos
+                    de madera pensados para acompañar a los niños
+                    en diferentes etapas de su crecimiento.
+                </p>
+
+                <br>
+
+                <p>
+                    Diseñamos productos que combinan creatividad,
+                    aprendizaje, movimiento, imaginación e ingenio.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section id="contacto">
+
+            <div class="section-title">
+
+                <h2>Bienvenidos a KIMIKI</h2>
+
+                <p>
+                    Nuestro catálogo y nuestros productos
+                    irán creciendo junto con este sitio.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 KIMIKI Toys — Juguetes de madera
+        </p>
+
+    </footer>
+
+</body>
+</html>
